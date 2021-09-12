@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Recipe Book</title>
+        <link rel="stylesheet" href="styles.css">
+        
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+       body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Dosa_Classic.jpg/2560px-Dosa_Classic.jpg');
+        background-repeat:repeat;
+    background-size:;
+}
+</style>
+        
+        <div id="content">
+
+<img id="myimg" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/917/5930959917_114f0ebc-5b6d-4d8d-a18c-37dd13b4aeb2.png?cb=1630397982">
+                      
+            </div>
+
+        
+    </head>
+    <body class="body-home">
+        
+        <div class="home">
+            
+          
+     <nav>
+		<ul class="nav-flex-row">
+			
+			<li class="nav-item">
+				<a href="index.html">
+                    
+                    <i class="fas fa-home">
+                    
+                    Home
+                
+                        <i class="fas fa-home"></i></i>
+                    
+                </a>
+			</li>
+            
+            <li class="nav-item">
+				<a href="Breakfast.html">
+                    
+                    <i class="fas fa-egg">
+                        
+                    Breakfast
+                        
+                    <i class="fas fa-egg"></i></i>
+                        
+                        </a>
+			</li>
+            
+            <li class="nav-item">
+				<a href="startrers.html">
+                    
+                    <i class="fas fa-cookie">
+                        
+                    Starters
+                        
+                        <i class="fas fa-cookie"></i></i>
+                        
+                        </a>
+			</li>
+            
+            <li class="nav-item">
+				<a href="Lunch.html">
+                    
+             <i class="fas fa-cloud-meatball">
+                         
+                         Lunch
+                         
+             <i class="fas fa-cloud-meatball"></i></i>
+                              
+                              </a>
+			</li>
+            
+            <li class="nav-item">
+				<a href="Dinner.html">
+                    
+                    <i class="fas fa-hamburger">
+                        
+                        Dinner
+                        
+                        <i class="fas fa-hamburger"></i></i>
+                            
+                        </a>
+			</li>
+            
+            <li class="nav-item">
+				<a href="Dessert.html">
+                    
+                    <i class="fas fa-ice-cream">
+                        
+                        Dessert
+                        
+                        <i class="fas fa-ice-cream"></i></i>
+                            
+                            </a>
+			</li>
+            
+            <li class="nav-item">
+				<a href="Drinks.html">
+                    
+            <i class="fas fa-wine-glass">
+                         
+                         Drinks
+                         
+            <i class="fas fa-wine-glass"></i></i>
+                              
+                              </a>
+			</li>
+		
+		
+		
+		</ul>
+	</nav>
+            
+           <section class="section-intro">
+		<header>
+			<h1  style="background-color:#7FFF00;">
+                
+               <i class="fas fa-egg">
+                
+                    Breakfast Menu
+                   
+                <i class="fas fa-egg"></i></i>
+                    </h1>
+		</header>
+            
+            </section>
+            
+             <body class="body-meals">
+        <div class="header">
+            <a href="index.html">
+            
+            </a>
+            
+        </div>
+                 
+                 <div id="right-column">
+       
+       <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://cdn.cdnparenting.com/articles/2020/02/03104346/Idli-Recipe.webp" style="width:90%" height="90%">
+  <div class="text"><h01>Idili</h01></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://www.madhuseverydayindian.com/wp-content/uploads/2020/06/crispy-dosa-recipe.jpg" style="width:90%" height="90%">
+  <div class="text"><h01>Dosa</h01></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://images.squarespace-cdn.com/content/v1/5ce7b674315260000197f9b1/1565628992018-YZZXCZCNV87VC0J504DW/Palak+puri+With+Achari+Aloo+2+.jpg" style="width:90%" height="90%">
+  <div class="text"><h01>Palak Poori</h01></div>
+</div>
+           
+           
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+                
+            </div>
+                 
+        
+        <div id="meals">
+            
+            <div class="meals-list">
+            <div></div>
+                <a href="idli.html">
+                    <div class="meals-list-item">
+                      <h01><span>Idili</span></h01>
+                    
+                        <p class="title01">
+  <a href="idli.html">
+      Idli is a round, fluffy bread roughly eight centimetres in diameter. 
+      
+      
+                            </a>
+</p>
+                        </div>
+                    
+                    
+                    
+                </a>
+            
+            </div>
+                
+        </div>
+                 
+                    
+                
+             <body class="body-meals">
+        <div class="header">
+            <a href="index.html">
+             
+            </a>
+            
+        </div>
+        
+        <div id="meals">
+            
+            <div class="meals-list">
+            
+                <a href="Dosa.html">
+                    <div class="meals-list-item">
+                        <h01><span>Dosa</span></h01>
+                    
+                        <p class="title01">
+                            <a href="Dosa.html">A dosa is a thin pancake or crepe</a></p>
+                    </div>
+                </a>
+            
+            </div>
+                
+        </div>
+                 
+             <body class="body-meals">
+        <div class="header">
+            <a href="index.html">
+          
+            </a>
+            
+        </div>
+        
+        <div id="meals">
+            
+            <div class="meals-list">
+            
+                <a href="Palak%20Poori.html">
+                    <div class="meals-list-item">
+                        <h01><span>Palak Poori</span></h01>
+                    
+                        <p class="title01">
+                            <a href="Palak%20Poori.html">Whole wheat puris with the goodness of spinach! These deep fried spinach puri pairs well with all sorts of curries or with a side of yogurt </a></p>
+                    </div>
+                </a>
+            
+            </div>
+                
+        </div>
+               
+            
+        
+    </body>
+                 </body></body></div></body>
+</html>
